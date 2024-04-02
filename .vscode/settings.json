@@ -1,0 +1,13 @@
+{
+    "julia.enableTelemetry": false,
+    "editor.matchBrackets": "never",
+    "editor.parameterHints.enabled": false,
+    "editor.parameterHints.cycle": false,
+    "editor.rulers": [
+        80
+    ],
+    "editor.fontSize": 15,
+    "editor.minimap.maxColumn": 80,
+    "editor.acceptSuggestionOnEnter": "off",
+    "gitlens.telemetry.enabled": false
+}
