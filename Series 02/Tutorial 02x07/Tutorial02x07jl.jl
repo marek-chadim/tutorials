@@ -31,7 +31,7 @@ end
 
 using CSV, DataFrames
 
-df = DataFrame(CSV.File("population.csv"))
+df = DataFrame(CSV.File("./Series 02/Tutorial 02x07/population.csv"))
 
 # save DataFrame as HTML file
 
@@ -130,7 +130,7 @@ savehtml("mydf_d", mydf_d)
 
 regions_u = unique(mydf.region)
 
-vscodedisplay(regions_u)
+vscodedisplay(mydf)
 
 # list unique subregions
 
