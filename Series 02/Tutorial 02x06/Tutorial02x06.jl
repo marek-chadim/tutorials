@@ -182,7 +182,6 @@ df
 # 2b. calculate Profit
 
 df.Profit = df.Quantity .* (df.Price .- df.Cost)
-
 df
 
 # 2c. calculate Profit Margin
