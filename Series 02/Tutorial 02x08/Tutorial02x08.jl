@@ -42,6 +42,7 @@ using CSV, HTTP, DataFrames
 
 url1 = "https://raw.githubusercontent.com/julia4ta/tutorials/master/Series%2002/Files/mydf.csv"
 
+
 mydf_url = DataFrame(CSV.File(HTTP.get(url1).body))
 
 savehtml("mydf_url", mydf_url)
@@ -116,9 +117,7 @@ df_by_r = @by(df_inner, :region,
     gdppc_c = round.(sum(:gdp) ./ sum(:my19), digits = 3)
 )
 savehtml("df_by_r", df_by_r)
-
-# copy and paste code to summarize data by subregion
-
+# summarize data by subregion
 df_by_s = @by(df_inner, :subregion,
     region_unique = unique(:region),
     my18_sum = sum(:my18),
