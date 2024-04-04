@@ -1,5 +1,6 @@
 [deps]
 DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
 GLPK = "60bf3e95-4087-53dc-ae20-288a0d20c6a6"
 Gadfly = "c91e804a-d5a3-530f-b6f0-dfbca275c004"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
