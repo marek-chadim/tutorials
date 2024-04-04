@@ -20,8 +20,7 @@
 # load data
 
 using DataFrames, CSV
-
-df = DataFrame(CSV.File("population_by_year.csv"))
+df = DataFrame(CSV.File("Series 02/Tutorial 02x11/population_by_year.csv"))
 
 vscodedisplay(df)
 
@@ -31,7 +30,7 @@ regions = propertynames(df)[2:end]
 
 using GLMakie
 
-fig = Figure(resolution = (3840, 2160))
+fig = Figure(resolution = (1920, 1080))
 
 # add axis
 
@@ -77,7 +76,7 @@ end
 
 # initialize plot
 
-fig = Figure(resolution = (3840, 2160))
+fig = Figure(resolution = (1920, 1080))
 
 # add axis for dartboard
 
