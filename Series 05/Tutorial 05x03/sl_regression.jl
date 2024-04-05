@@ -24,9 +24,9 @@ p_logistic = plot(-6:0.1:6, logistic,
 
 # initialize parameters
 
-theta_0 = 0.0    # y-intercept (default = 0 | try 1 & -1)
+theta_0 = 0   # y-intercept (default = 0 | try 1 & -1)
 
-theta_1 = 1.0    # slope (default = 1 | try 0.5 & -0.5)
+theta_1 = 1    # slope (default = 1 | try 0.5 & -0.5)
 
 # hypothesis function
 
@@ -42,7 +42,7 @@ plot!(h, color = :red, linestyle = :dash)
 
 using CSV
 
-data = CSV.File("wolfspider.csv")
+data = CSV.File("Series 05/Tutorial 05x03/wolfspider.csv")
 
 X = data.feature
 
