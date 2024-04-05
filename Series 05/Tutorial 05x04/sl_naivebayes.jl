@@ -6,7 +6,7 @@
 
 using DelimitedFiles
 
-data = readdlm("tennis.csv", ','; skipstart = 1)
+data = readdlm("Series 05/Tutorial 05x04/tennis.csv", ','; skipstart = 1)
 
 # split matrix into vectors
 
