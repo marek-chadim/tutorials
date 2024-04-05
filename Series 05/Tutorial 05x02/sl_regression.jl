@@ -8,7 +8,7 @@ using CSV, GLM, Plots, TypedTables
 
 # use CSV package to import data from CSV file
 
-data = CSV.File("housingdata.csv")
+data = CSV.File("Series 05/Tutorial 05x02/housingdata.csv")
 
 X = data.size
 
