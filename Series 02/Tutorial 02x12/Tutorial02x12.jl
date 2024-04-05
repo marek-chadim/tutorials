@@ -14,7 +14,7 @@ using Dates
 
 using DataFrames, CSV
 
-df_dates = DataFrame(CSV.File("dates.csv", delim = '#', types = [String]))
+df_dates = DataFrame(CSV.File("Series 02/Tutorial 02x12/dates.csv", delim = '#', types = [String]))
 
 # add index numbers
 
@@ -77,7 +77,7 @@ dayofweeknumber = dayofweek(testdate)
 
 # load data
 
-df_times = DataFrame(CSV.File("times.csv", delim = '#', types = [String]))
+df_times = DataFrame(CSV.File("Series 02/Tutorial 02x12/times.csv", delim = '#', types = [String]))
 
 # add index numbers
 
