@@ -3,7 +3,8 @@
 ################################################################################
 
 # load packages
-
+cd(@__DIR__)
+pwd()
 using POMDPs, POMDPModelTools, QuickPOMDPs
 
 # load solver
