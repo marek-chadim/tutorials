@@ -43,5 +43,6 @@
     "julia.inlayHints.runtime.enabled": false,
     "julia.executablePath": "C:\\Users\\chadi\\AppData\\Local\\Microsoft\\WindowsApps\\julia.exe",
     "julia.inlayHints.static.parameterNames.enabled": "none",
-    "julia.showRuntimeDiagnostics": false
+    "julia.showRuntimeDiagnostics": false,
+    "julia.execution.resultType": "both"
 }
