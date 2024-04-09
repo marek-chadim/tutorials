@@ -37,12 +37,14 @@
     "julia.execution.codeInREPL": true,
     "julia.execution.inlineResultsForCellEvaluation": true,
     "julia.focusPlotNavigator": false,
-    "julia.inlayHints.static.enabled": false,
+    "julia.inlayHints.static.enabled": true,
     "julia.lint.missingrefs": "none",
-    "julia.inlayHints.static.variableTypes.enabled": false,
-    "julia.inlayHints.runtime.enabled": false,
+    "julia.inlayHints.static.variableTypes.enabled": true,
+    "julia.inlayHints.runtime.enabled": true,
     "julia.executablePath": "C:\\Users\\chadi\\AppData\\Local\\Microsoft\\WindowsApps\\julia.exe",
     "julia.inlayHints.static.parameterNames.enabled": "none",
     "julia.showRuntimeDiagnostics": false,
-    "julia.execution.resultType": "both"
+    "julia.execution.resultType": "inline, errors in REPL",
+    "editor.wordWrap": "on",
+    "chat.editor.wordWrap": "on"
 }
